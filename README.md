@@ -82,8 +82,12 @@ RustWine aims to provide superior performance compared to traditional Wine/Proto
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-
 - Wine project for inspiration
 - DXVK for graphics translation concepts
 - ReactOS for kernel research
 - Rust community for excellent tools and libraries
+
+##Things to Know##
+- this project is fully opened source and the lead developer of the project isn't asking for coffe . you can show your respect by helping the project or contributing.
+- the project is still in his start and if any mistakes happen it will be the best to put  them in the issues
+
