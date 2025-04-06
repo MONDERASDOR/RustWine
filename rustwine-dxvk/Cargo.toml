@@ -1,0 +1,16 @@
+[package]
+name = "rustwine-dxvk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+tracing = { workspace = true }
+vulkano = { workspace = true }
+wgpu = { workspace = true }
+windows = { workspace = true }
+ash = "0.37"
+gpu-alloc = "0.5"
+gpu-descriptor = "0.2" 

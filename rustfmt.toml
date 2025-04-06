@@ -1,0 +1,61 @@
+# Rustfmt Configuration
+
+# Maximum width of each line
+max_width = 100
+
+# Use tab characters for indentation
+hard_tabs = false
+
+# Number of spaces per tab
+tab_spaces = 4
+
+# Use Unix-style newlines
+newline_style = "Unix"
+
+# Controls the behavior of comment formatting
+wrap_comments = true
+
+# Controls the behavior of string formatting
+format_strings = true
+
+# Controls the behavior of array formatting
+format_macro_matchers = true
+
+# Controls the behavior of struct literal formatting
+format_macro_bodies = true
+
+# Controls the behavior of where clause formatting
+format_macro_call_site = true
+
+# Controls the behavior of match arm formatting
+format_macro_definitions = true
+
+# Controls the behavior of function signature formatting
+fn_single_line = false
+
+# Controls the behavior of control flow formatting
+control_brace_style = "AlwaysSameLine"
+
+# Controls the behavior of trailing commas
+trailing_comma = "Vertical"
+
+# Controls the behavior of match arm formatting
+match_arm_blocks = true
+
+# Controls the behavior of where clause formatting
+where_single_line = false
+
+# Controls the behavior of struct literal formatting
+struct_lit_single_line = false
+
+# Controls the behavior of array formatting
+array_width = 60
+
+# Controls the behavior of chain formatting
+chain_width = 60
+
+# Controls the behavior of function call formatting
+fn_call_width = 60
+
+# Controls the behavior of single line if-else formatting
+single_line_if_else_max_width = 50 

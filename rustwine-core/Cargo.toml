@@ -1,0 +1,17 @@
+[package]
+name = "rustwine-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+tracing = { workspace = true }
+crossbeam = { workspace = true }
+parking_lot = { workspace = true }
+rustix = { workspace = true }
+windows = { workspace = true }
+memmap2 = "0.7"
+object = "0.31"
+goblin = "0.7" 

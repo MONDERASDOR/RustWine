@@ -1,0 +1,13 @@
+[package]
+name = "rustwine-seccomp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+tracing = { workspace = true }
+libseccomp = "0.2"
+nix = "0.26"
+tpm2-tss = "0.1" 

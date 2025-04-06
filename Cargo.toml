@@ -1,0 +1,36 @@
+[package]
+name = "RustWine"
+version = "0.1.0"
+edition = "2025"
+description = "RustWine is an improved version of wine fully made with rust"
+repository = "https://github.com/MONDERASDOR/RustWine"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[workspace]
+members = [
+    "rustwine-core",
+    "rustwine-dxvk",
+    "rustwine-seccomp",
+    "rustwine-ai",
+    "benchmarks"
+]
+
+[workspace.dependencies]
+anyhow = "1.0"
+thiserror = "1.0"
+log = "0.4"
+tracing = "0.1"
+crossbeam = "0.8"
+parking_lot = "0.12"
+rustix = "0.38"
+windows = "0.48"
+vulkano = "0.33"
+wgpu = "0.16"
+tch = "0.13"
+syn = "2.0"
+criterion = "0.5"
+flamegraph = "0.4"

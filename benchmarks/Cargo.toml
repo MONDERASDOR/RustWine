@@ -1,0 +1,24 @@
+[package]
+name = "benchmarks"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = { workspace = true }
+flamegraph = { workspace = true }
+rustwine-core = { path = "../rustwine-core" }
+rustwine-dxvk = { path = "../rustwine-dxvk" }
+rustwine-seccomp = { path = "../rustwine-seccomp" }
+rustwine-ai = { path = "../rustwine-ai" }
+
+[[bench]]
+name = "api_translation"
+harness = false
+
+[[bench]]
+name = "graphics"
+harness = false
+
+[[bench]]
+name = "sandbox"
+harness = false 
