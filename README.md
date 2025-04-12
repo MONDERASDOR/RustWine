@@ -42,7 +42,7 @@ rustwine/
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Clone repository
-git clone https://github.com/yourusername/rustwine.git
+git clone https://github.com/MONDERASDOR/rustwine.git
 cd rustwine
 
 # Build all crates
