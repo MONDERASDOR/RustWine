@@ -1,7 +1,7 @@
 [package]
 name = "RustWine"
 version = "0.1.0"
-edition = "2025"
+edition = "2023"
 description = "RustWine is an improved version of wine fully made with rust"
 repository = "https://github.com/MONDERASDOR/RustWine"
 license = "MIT"
